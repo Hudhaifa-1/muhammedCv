@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,h1,h5,li{
+    font-family: "PT Sans" , sans-serif;
+    color: #fffffff1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffffe1;
+
+}
+
+i{
+color: white;
+}
+
+.container30{
+    width: 30%;
+    height: 328.5px;
+    background-color: #222;
+    position: absolute;
+    
+}
+
+/* ********** CONTACTS ********** */
+
+.contacts {
+   
+    position: relative;
+    width: 88%;
+    margin: auto;
+    height: 225px;
+    background-color: crimson;
+    padding: 10px;
+    top: -50px;
+    right: 67px;
+    margin-left: 87px;
+}
+
+.img-information{
+    display: flex;
+}
+
+.img {
+    flex: 1;
+    line-height: 15;
+    margin-left: 10px;
+    position: relative;
+   
+}
+.img img{
+    color: white;
+    /* width: 100%; */
+    width: 156px;
+    height: 208px;
+    /* position: absolute; */
+    border: 3.5px solid white;
+    
+    
+}
+
+.overflow{
+    overflow: hidden;
+}
+.information{
+    flex: 3;
+}
+
+.information .employer-name {
+    font-size: 35px;
+    color: white;
+    
+    width: 100%;
+    height: 50px;
+    word-spacing: 6.5px;
+    letter-spacing: 2.5px;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 13.5px;
+}
+
+.information .job-name{
+    color: white;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.contact-list{
+    margin-left: 15.5px;
+}
+.contact-list li{
+    margin-top: 10px;
+    font-size: 12.5px;
+   
+}
+
+.contact-list i{
+    margin-right: 3.5px;
+    font-size: 12px;
+
+}
+
+.upper {
+    background-color: #222;
+    width: 30%;
+    border-radius: 10px 0 0;
+    height: 64px;
+    margin-bottom: 40px;
+}
+.left {
+  
+    background-color: #222;
+    width: 47px;
+    height: 275px;
+    display: inline-block;
+}
+.left::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 110px;
+    width: 46px;
+    background-color: #222;
+    bottom: auto;
+    right: 0;
+    left: 0;
+
+
+}
+.lower{
+    background-color: #222;
+    width: 30%;
+    position: relative;
+   border-radius:0 0 0 10px ;
+    height: 860px;
+    margin: 0; 
+    min-height:0;
+}
+
+.lower::before{
+    content: "";
+    height: 50px;
+    position: absolute;
+    background: #222;
+    top: -50px;
+    width: 100%;
+
+}
+
+.thestyle-of-contact{
+    display: flex;
+}
+html, body {margin: 0; }
+
+
+
+/* ************* SKLLIS ************* */
+
+.level{
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    background-color: crimson;
+    position: relative;
+    top: 50px;
+    left: -28px;
+}
+.css-level.level::after{
+    content: "";
+    width: 0px;
+    height: 5px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+.java-level.level::after{
+    content: "";
+    width: 0px;
+    height: 5px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.react-level.level::after{
+    content: "";
+    width: 0px;
+    height: 5px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.boot-level.level::after{
+    content: "";
+    width: 0px;
+    height: 5px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.skills-name{
+    position: relative;
+    display: inline-block;
+    top: 35px;
+    left: 25px;
+    width: 50px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.skl-level{
+    padding-bottom: 10px;
+    
+}
+.skl-level{
+    margin: 10px 0 30px 0;
+}
+
+.skills-information {
+    position: relative;
+    top: -19px;
+}
+
+
+.skill-head{
+    position: relative;
+    top: -10px;
+    left: 25.5px;
+    letter-spacing: 3px;
+    color:  crimson;
+    font-size: 1rem;
+}
+
+.language-head {
+    position: relative;
+    top: 63px;
+    left: 25.5px;
+    letter-spacing: 3px;
+    color:   crimson;
+    font-size: 1rem;
+}
+
+
+
+.language-information {
+    position: relative;
+    top: 49px;
+    margin-bottom: 75px;
+}
+
+
+
+.english-level.level:after{
+    content: "";
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* ***************** PROFILE ************* */
+
+.profile-flex{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.profile {
+    flex: -9;
+    position: relative;
+    width: 56%;
+    top: -27.5px;
+    margin-right: 92.5px;
+    height: auto;
+    
+}
+
+.eduction-head {
+   background-color: crimson;
+    display: inline-block;
+    padding: 3px 7px 3px 7px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1rem;
+    width: auto;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.postion{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3.5px;
+
+}
+
+.universty-name{
+    font-size: 15px;
+    color: #444343c0;
+    margin-bottom: 5px;
+}
+
+.eduction-desc{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 13px;
+}
+
+.eduction-information {
+    margin-bottom: 64px;
+    margin-top: 5px;
+}
+
+
+.postion-duration{
+    display: inline-block;
+    /* margin-right: 100px; */
+   
+}
+.employment-sec{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duration{
+    font-size: 15px;
+    color: #222;
+    font-weight: 270;
+}
+
+.employment-desc{
+    margin-bottom: 15px;
+}
+
+.employment-desc{
+    margin-bottom: 20px;
+}
+
+.employment-information {
+    margin-bottom: 72px;
+}
+
+
+.drawing {
+    position: relative;
+    top: 82px;
+    left: 41.5px;
+}
+.drawing::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+    left: -5;
+    right: auto;
+    left: -15px;
+    top: 4px;
+    bottom: 0;
+}
+
+/* ************** PRIVACEY ***************** */
+
+.privacey {
+    position: relative;
+    font-size: 15px;
+    color: black;
+    top: 1%;
+}
+
+.privacey-head{
+    margin-top:150px;
+  }
+/* **************** APP ************** */
+
+.App{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    margin: 25px auto 25px auto;
+    border-radius: 5px;
+    box-shadow: 1px -1px 10px black;
+    
+}
+.App::after {
+    content: "";
+    -webkit-background: url("../CV-project/images2.webp"); 
+     background: url("../CV-project/images2.webp");
+    -webkit-opacity: 0.4;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: darkolivegreen;
+    position: absolute;
+    -webkit-z-index: -1;
+    z-index: -1;   
+    -webkit-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+
+  /* media query */
+@media only screen and (max-width:483px){
+
+    /* 1- App */
+   .App{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    height: 700px;
+   }
+
+   /* 2-contact */
+   .contacts {
+   
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    background-color: crimson;
+    padding: 10px;
+    right: 67px;
+    top: -100px;
+    right: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+
+/* 3-names of job and employer */
+
+.information .employer-name {
+    margin-top: 10px;
+    font-size: 8px;
+    color: white;
+    
+    width: 100%;
+    height: 20px;
+    word-spacing: 6.5px;
+    letter-spacing: 2.5px;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.information .job-name{
+    color: white;
+    font-size: 4px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+/* end of names of job and employer */
+
+
+/* 4-img */
+
+.img {
+    flex: 1;
+    line-height: 15;
+    margin-left: 10px;
+    position: relative;
+    line-height: 50px;
+}
+.img img{
+    color: white;
+    width: 55px;
+    height: 90px;
+   
+    border: 2px solid white;
+    margin-top: 10px;
+    
+    
+}
+
+/* end of img */
+
+/* 5-contact list */
+
+.contact-list{
+    margin-left: 8px;
+}
+.contact-list li{
+    margin-top: 10px;
+    font-size: 5px;
+   
+}
+
+.contact-list i{
+    margin-right: 3.5px;
+    font-size: 5px;
+
+}
+
+/* end of contact list */
+
+
+
+/* 6-lower upper left  */
+.upper {
+    background-color: #222;
+    width: 30%;
+    border-radius: 10px 0 0;
+    height: 20px;
+    margin-bottom: 115px;
+}
+.left {
+  
+    background-color: #222;
+    width: 25px;
+    height: 70px;
+    display: inline-block;
+}
+.left::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 150px;
+    width: 25px;
+    background-color: #222;
+    bottom: auto;
+    right: 0;
+    left: 0;
+
+
+}
+.lower{
+    background-color: #222;
+    width: 40%;
+    position: relative;
+   border-radius:0 0 0 10px ;
+    height: 580px;
+    margin: 0; 
+    min-height:0;
+}
+
+.lower::before{
+    content: "";
+    height: 90px;
+    position: absolute;
+    background: #222;
+    top: -85px;
+    width: 100%;
+
+}
+
+/* end of lower upper left */
+
+
+/* 7-profile , eduction, duration*/
+
+.profile {
+    
+    position: relative;
+    width: 50%;
+    top: -90px;
+    /* margin-right: 92.5px; */
+    height: auto;
+    margin: auto;
+    
+}
+
+.eduction-head {
+    background-color: crimson;
+    display: inline-block;
+    padding: 3px 7px 3px 7px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 0.3rem;
+    width: auto;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    position: relative;
+    top: -70px;
+}
+
+.postion{
+    font-size: 7px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3px;
+
+}
+
+.universty-name{
+    font-size: 7px;
+    color: #444343c0;
+    margin-bottom: 3px;
+}
+
+.eduction-desc{
+    font-size: 7px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.eduction-information {
+    margin-bottom: 30px;
+    margin-top: 2px;
+    position: relative;
+    top: -70px;
+}
+
+
+.postion-duration{
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+
+.duration{
+    font-size: 5px;
+    color: #222;
+    font-weight: 270;
+}
+
+.employment-desc{
+    margin-bottom: 7px;
+}
+
+.employment-information {
+    margin-bottom: 30px;
+    position: relative;
+    top: -70px;
+}
+
+.profile-desc{
+    position: relative;
+    top: -70px;
+}
+
+.privacey-head{
+    margin-top: 100px;
+}
+
+.privacey{
+    font-size: 7px;
+    position: relative;
+    top: -70px;
+}
+/* end of profile , eduction, duration*/
+
+
+/* ************* 8-SKLLIS ************* */
+
+.level{
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: crimson;
+    position: relative;
+    top: 70px;
+    left: -40px;
+}
+.css-level.level::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+.java-level.level::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.react-level.level::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.boot-level.level::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.skills-name{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: 15px;
+    width: 50px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 0.45rem;
+}
+
+.skl-levell{
+    margin-bottom: 0;
+    
+}
+
+.skl-level{
+    margin: 0;
+}
+
+
+.skills-information {
+    
+    position: relative;
+    top: -75px;
+    left: -5px;
+}
+
+
+.skill-head{
+    position: relative;
+    top: -25px;
+    left: 10px;
+    letter-spacing: 2px;
+    color: crimson;
+    font-size: 0.4rem;
+}
+
+.language-head {
+    position: relative;
+    top: 63px;
+    left: 10px;
+    letter-spacing: 2px;
+    color: crimson;
+    font-size: 0.4rem;
+}
+
+
+
+.language-information {
+    position: relative;
+    top: 15px;
+    margin-bottom: 75px;
+    left: -5px;
+}
+
+
+
+.english-level.level:after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.drawing {
+    position: relative;
+    top: 82px;
+    left: 20px;
+}
+.drawing::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: crimson;
+    left: -10px;
+    right: auto;
+    top: 2px;
+    margin-right: 5px;
+    bottom: 0;
+}
+
+
+
+}
+
+
+
+  
+.pic{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
